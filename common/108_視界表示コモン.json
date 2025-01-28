@@ -1,0 +1,227 @@
+{
+    "id": 108,
+    "name": "視界表示コモン",
+    "description": "扇状の視界範囲を表示します(視界距離は精密座標です)",
+    "commands": [
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 0
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "扇状の視界ピクチャを表示します。"
+            ],
+            "index": 1
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ただし、表示できる視界ピクチャは30°刻みなので注意して下さい。"
+            ],
+            "index": 2
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "視界ピクチャの色と不透明度を変更したい場合は、同梱している視界表示コモン(色設定)を先に実行して下さい。"
+            ],
+            "index": 3
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " "
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                1600002,
+                300,
+                16384
+            ],
+            "index": 5
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "視界が30°刻みでないなら表示しない(削除)"
+            ],
+            "index": 6
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600015,
+                0,
+                5
+            ],
+            "index": 7
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 8
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                7954,
+                1600003,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "マップイベントの精密座標の中心を算出します\r"
+            ],
+            "index": 14
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                9190002,
+                16,
+                8192
+            ],
+            "index": 15
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                9190003,
+                16,
+                8192
+            ],
+            "index": 16
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                9000104,
+                16,
+                4608
+            ],
+            "index": 17
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                9000105,
+                16,
+                4608
+            ],
+            "index": 18
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "視界ピクチャのサイズを設定します\r"
+            ],
+            "index": 19
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                1600000,
+                4,
+                8192
+            ],
+            "index": 20
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 21
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "視界ピクチャを表示します"
+            ],
+            "index": 22
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Picture/Fun_Sight/fun\\cself[2].png"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 23
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4368,
+                1600003,
+                0,
+                1,
+                1,
+                1,
+                1600023,
+                1600010,
+                1600011,
+                1600012,
+                1600001,
+                1600005,
+                33554432,
+                0,
+                0,
+                1600020,
+                1600021,
+                1600022
+            ],
+            "index": 24
+        }
+    ]
+}

@@ -1,0 +1,205 @@
+{
+    "id": 28,
+    "name": "マップピクチャ表示",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                32,
+                0,
+                768
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600001,
+                32,
+                0,
+                768
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                9000104,
+                0,
+                512
+            ],
+            "index": 2
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600001,
+                9000105,
+                0,
+                512
+            ],
+            "index": 3
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                16,
+                0,
+                256
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600001,
+                1600003,
+                0,
+                256
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                1600006,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                1600007,
+                0,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600014,
+                1600008,
+                0,
+                0
+            ],
+            "index": 8
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "CharaChip/\\cself[5].png"
+            ],
+            "intArgs": [
+                1600009,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                33558544,
+                1600002,
+                0,
+                1600012,
+                1600013,
+                1600014,
+                255,
+                1600000,
+                1600001,
+                100,
+                0,
+                1600009
+            ],
+            "index": 10
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600003,
+                0,
+                2,
+                1600003,
+                1,
+                2
+            ],
+            "index": 11
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 12
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4112,
+                1600002,
+                0,
+                1600012,
+                1600013,
+                1600014,
+                255,
+                1600000,
+                1600001,
+                100,
+                0,
+                1600009
+            ],
+            "index": 13
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 15
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                33558544,
+                1600002,
+                0,
+                1600012,
+                1600013,
+                1600014,
+                255,
+                1600000,
+                1600001,
+                100,
+                0,
+                1600009
+            ],
+            "index": 16
+        }
+    ]
+}

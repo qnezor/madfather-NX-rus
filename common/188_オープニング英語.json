@@ -1,0 +1,801 @@
+{
+    "id": 188,
+    "name": "オープニング英語",
+    "description": "",
+    "commands": [
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                30
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                51003,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                51013,
+                0,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "BGM/olddoll_amacya.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                15,
+                0,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600001,
+                460,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\c[3]\nScenario, Illustration\n\\c[0]sen\n"
+            ],
+            "intArgs": [
+                8224,
+                1600011,
+                50,
+                1,
+                1,
+                1,
+                255,
+                1600000,
+                1600001,
+                100,
+                0,
+                0,
+                33554432,
+                200,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 6
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600011,
+                50,
+                500
+            ],
+            "index": 7
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\c[3]Production Tool\n\\c[0]WOLF RPG Editor"
+            ],
+            "intArgs": [
+                8224,
+                1600011,
+                50,
+                1,
+                1,
+                1,
+                255,
+                1600000,
+                1600001,
+                100,
+                0,
+                0,
+                33554432,
+                800,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 8
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600011,
+                50,
+                1300
+            ],
+            "index": 9
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\c[3]Graphic\n\\c[0]Nekura Fantasy Map Chips\nNekura Fantasy Map Chips Extra Dungeon\nNekura RetroFuture Map Chips\nDot E Sekai\nPipoya\nSPIERAL WIND \nCLIP STUDIO ASSETS  "
+            ],
+            "intArgs": [
+                8224,
+                1600011,
+                50,
+                1,
+                1,
+                1,
+                255,
+                1600000,
+                1600001,
+                100,
+                0,
+                0,
+                33554432,
+                1600,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 10
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600011,
+                50,
+                2100
+            ],
+            "index": 11
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\c[3]Sound\n\\c[0]Mamoru Saikyou\nH/MIX GALLERY\nAmacha no Ongakukoubou\nVita-Chi-Sozaikan\nOn-Jin\nThe Matchmakers\nMaou Damashii\nMuryou Koukaon de Asobou!\nSound Effect Lab\nSound Effect Jiten\nOto no Mori"
+            ],
+            "intArgs": [
+                8224,
+                1600011,
+                50,
+                1,
+                1,
+                1,
+                255,
+                1600000,
+                1600001,
+                100,
+                0,
+                0,
+                33554432,
+                2300,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 12
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600011,
+                50,
+                2800
+            ],
+            "index": 13
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\c[3]Common Event\n\\c[0]Foolish Kingdom\nDummy\n'K"
+            ],
+            "intArgs": [
+                8224,
+                1600011,
+                50,
+                1,
+                1,
+                1,
+                255,
+                1600000,
+                1600001,
+                100,
+                0,
+                0,
+                33554432,
+                3500,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 14
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600011,
+                50,
+                4000
+            ],
+            "index": 15
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\c[3]Font\n\\c[0]MODI Koujyou"
+            ],
+            "intArgs": [
+                8224,
+                1600011,
+                50,
+                1,
+                1,
+                1,
+                255,
+                1600000,
+                1600001,
+                100,
+                0,
+                0,
+                33554432,
+                4300,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 16
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600011,
+                50,
+                4800
+            ],
+            "index": 17
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 18
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 19
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\c[3]Debug\n\\c[0]Mamoru Saikyou\nAkari Ikuyama (Sakaba no Yotabanashi)"
+            ],
+            "intArgs": [
+                8224,
+                1600011,
+                50,
+                1,
+                1,
+                1,
+                255,
+                1600000,
+                1600001,
+                100,
+                0,
+                0,
+                33554432,
+                5500,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 20
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600011,
+                100,
+                6000
+            ],
+            "index": 21
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\c[3]Presented by\n\\c[0]Hitodenashi no Kuukan"
+            ],
+            "intArgs": [
+                8224,
+                1600011,
+                50,
+                1,
+                1,
+                1,
+                255,
+                1600000,
+                1600001,
+                100,
+                0,
+                0,
+                33554432,
+                6300,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 22
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600011,
+                100,
+                6800
+            ],
+            "index": 23
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 24
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                51000,
+                0,
+                0
+            ],
+            "index": 25
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/op_1.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                200,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0
+            ],
+            "index": 26
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                0,
+                4700
+            ],
+            "index": 27
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                51001,
+                0,
+                0
+            ],
+            "index": 28
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/op_2.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                200,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0,
+                0,
+                33554432,
+                3000,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 29
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                200,
+                4800
+            ],
+            "index": 30
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                51002,
+                0,
+                0
+            ],
+            "index": 31
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "Picture/op_3.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                300,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0,
+                0,
+                33554432,
+                5300,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 32
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                100,
+                7000
+            ],
+            "index": 33
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                51000,
+                0,
+                0
+            ],
+            "index": 34
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "MAD FATHER"
+            ],
+            "intArgs": [
+                4128,
+                1600010,
+                50,
+                1,
+                1,
+                1,
+                255,
+                424,
+                240,
+                100,
+                0,
+                0,
+                33554432,
+                7300,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 35
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                100,
+                7700
+            ],
+            "index": 36
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "　"
+            ],
+            "intArgs": [
+                32,
+                1600020,
+                50,
+                1,
+                1,
+                1,
+                0,
+                0,
+                0,
+                100,
+                0,
+                0,
+                33554432,
+                8000,
+                0,
+                100,
+                100,
+                100
+            ],
+            "index": 37
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 38
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                16384,
+                1600020,
+                10
+            ],
+            "index": 40
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600021,
+                1,
+                2
+            ],
+            "index": 41
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 42
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777219,
+                51000,
+                51005
+            ],
+            "index": 43
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                51000,
+                0,
+                0,
+                0,
+                51015
+            ],
+            "index": 44
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                4294967072,
+                0,
+                0,
+                0
+            ],
+            "index": 45
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 48
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600002,
+                48
+            ],
+            "index": 49
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600002,
+                10,
+                1
+            ],
+            "index": 50
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 51
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600003,
+                1,
+                0,
+                0
+            ],
+            "index": 52
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777219,
+                51000,
+                51005
+            ],
+            "index": 53
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                51000,
+                0,
+                0,
+                0,
+                51015
+            ],
+            "index": 54
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                4294967072,
+                0,
+                0,
+                0
+            ],
+            "index": 55
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 58
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 63
+        }
+    ]
+}

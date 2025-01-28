@@ -1,0 +1,485 @@
+{
+    "id": 69,
+    "name": "アイテム「除草剤」",
+    "description": "スノボ、カッター、オイル、メモ、バケツ、梯子、瓶、トング、ハム、ナプキン、香水",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900004,
+                0,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600011,
+                4096,
+                4294967294,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600012,
+                4096,
+                4294967294,
+                1
+            ],
+            "index": 2
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600013,
+                4096,
+                4294967294,
+                5
+            ],
+            "index": 3
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600013,
+                2,
+                2
+            ],
+            "index": 4
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                1,
+                0,
+                256
+            ],
+            "index": 6
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600020,
+                73728,
+                1600011,
+                1600012
+            ],
+            "index": 9
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                4096,
+                1600020,
+                8
+            ],
+            "index": 10
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600021,
+                19,
+                2
+            ],
+            "index": 11
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 12
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "カーソル点滅"
+            ],
+            "intArgs": [
+                0,
+                2,
+                0,
+                1
+            ],
+            "index": 13
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 14
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 15
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 16
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/step_mud_onjin.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                40,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 17
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000001,
+                0,
+                2,
+                2000001,
+                1,
+                2
+            ],
+            "index": 18
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 19
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 20
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 22
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 23
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 26
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/shizen_mizu_dorodoro_onjin.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 27
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                3,
+                45,
+                16,
+                1,
+                1,
+                124
+            ],
+            "index": 28
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                3,
+                45,
+                17,
+                1,
+                1,
+                132
+            ],
+            "index": 29
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                10
+            ],
+            "index": 30
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                3,
+                45,
+                16,
+                1,
+                1,
+                125
+            ],
+            "index": 31
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                3,
+                45,
+                17,
+                1,
+                1,
+                133
+            ],
+            "index": 32
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                50
+            ],
+            "index": 33
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                3,
+                45,
+                16,
+                1,
+                1,
+                126
+            ],
+            "index": 34
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                3,
+                45,
+                17,
+                1,
+                1,
+                134
+            ],
+            "index": 35
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 36
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/step_grass_match.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 37
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                3,
+                45,
+                16,
+                1,
+                1,
+                0
+            ],
+            "index": 38
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                3,
+                45,
+                17,
+                1,
+                1,
+                135
+            ],
+            "index": 39
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                3,
+                45,
+                18,
+                1,
+                1,
+                143
+            ],
+            "index": 40
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 41
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                3,
+                45,
+                17,
+                1,
+                1,
+                0
+            ],
+            "index": 42
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                22
+            ],
+            "index": 43
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                5
+            ],
+            "index": 44
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                25
+            ],
+            "index": 45
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 46
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム入手"
+            ],
+            "intArgs": [
+                0,
+                4,
+                22,
+                4294967295,
+                1,
+                0
+            ],
+            "index": 47
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                2,
+                45,
+                16,
+                1,
+                2,
+                0
+            ],
+            "index": 48
+        }
+    ]
+}

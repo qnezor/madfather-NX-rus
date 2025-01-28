@@ -1,0 +1,617 @@
+{
+    "id": 63,
+    "name": "アイテム「ナプキン」",
+    "description": "スノボ、カッター、オイル、メモ、バケツ、梯子、瓶、トング、ハム、ナプキン、香水",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900004,
+                0,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600010,
+                12288,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600011,
+                4096,
+                4294967294,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600012,
+                4096,
+                4294967294,
+                1
+            ],
+            "index": 3
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600013,
+                4096,
+                4294967294,
+                5
+            ],
+            "index": 4
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600013,
+                2,
+                2
+            ],
+            "index": 5
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 6
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                1,
+                0,
+                256
+            ],
+            "index": 7
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600020,
+                73728,
+                1600011,
+                1600012
+            ],
+            "index": 10
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600021,
+                4096,
+                1600020,
+                8
+            ],
+            "index": 11
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600021,
+                15,
+                2
+            ],
+            "index": 12
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 13
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "カーソル点滅"
+            ],
+            "intArgs": [
+                0,
+                2,
+                0,
+                1
+            ],
+            "index": 14
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 15
+        },
+        {
+            "code": 240,
+            "codeStr": "Chip",
+            "intArgs": [
+                347,
+                16
+            ],
+            "index": 16
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 17
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000001,
+                0,
+                2,
+                2000001,
+                1,
+                2
+            ],
+            "index": 18
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 19
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "座標取得",
+                "anime_aya02",
+                "10",
+                "10",
+                "65"
+            ],
+            "intArgs": [
+                0,
+                61508,
+                4294967294,
+                4294967264,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 20
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                66,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                5
+            ],
+            "index": 21
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                68,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                10
+            ],
+            "index": 22
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 24
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "座標取得",
+                "anime_aya203",
+                "10",
+                "10",
+                "16"
+            ],
+            "intArgs": [
+                0,
+                61508,
+                4294967294,
+                4294967264,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 25
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                17,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                5
+            ],
+            "index": 26
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                19,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                10
+            ],
+            "index": 27
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 30
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/seikatsu_nuno_fuku_onjin.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                5,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 31
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000001,
+                0,
+                2,
+                2000001,
+                1,
+                2
+            ],
+            "index": 32
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 33
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                160,
+                15,
+                1,
+                1,
+                68,
+                69,
+                0
+            ],
+            "index": 34
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 36
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                160,
+                15,
+                1,
+                1,
+                18,
+                20,
+                0
+            ],
+            "index": 37
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                100
+            ],
+            "index": 40
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                2,
+                9,
+                15,
+                1,
+                1,
+                340
+            ],
+            "index": 41
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000001,
+                0,
+                2,
+                2000001,
+                1,
+                2
+            ],
+            "index": 42
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 43
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                0,
+                1,
+                1,
+                65,
+                68,
+                0
+            ],
+            "index": 44
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 45
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                1,
+                1,
+                68,
+                65,
+                0
+            ],
+            "index": 46
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 48
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                0,
+                1,
+                1,
+                16,
+                19,
+                0
+            ],
+            "index": 49
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 50
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                128,
+                5,
+                1,
+                1,
+                19,
+                16,
+                0
+            ],
+            "index": 51
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1,
+                0,
+                16
+            ],
+            "index": 54
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                7
+            ],
+            "index": 55
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 56
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                2,
+                9,
+                15,
+                1,
+                1,
+                348
+            ],
+            "index": 57
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム入手"
+            ],
+            "intArgs": [
+                0,
+                4,
+                16,
+                4294967295,
+                1,
+                1
+            ],
+            "index": 58
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット"
+            ],
+            "intArgs": [
+                0,
+                18,
+                0,
+                0,
+                1600005
+            ],
+            "index": 59
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                5
+            ],
+            "index": 60
+        }
+    ]
+}

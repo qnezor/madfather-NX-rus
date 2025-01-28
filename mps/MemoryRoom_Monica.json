@@ -1,0 +1,776 @@
+{
+    "events": [
+        {
+            "id": 0,
+            "name": "並列",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                3
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 103,
+                            "codeStr": "Comment",
+                            "stringArgs": [
+                                "日記2床"
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                2800000,
+                                4096,
+                                2,
+                                6
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                2800001,
+                                4096,
+                                2,
+                                7
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2800001,
+                                32,
+                                0,
+                                512
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "stringArgs": [
+                                "Fog/mapfog_MemoryRoom_Monica4.png"
+                            ],
+                            "intArgs": [
+                                33558528,
+                                4294867296,
+                                0,
+                                1,
+                                1,
+                                1,
+                                255,
+                                2800000,
+                                2800001,
+                                100,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                2800000,
+                                4096,
+                                3,
+                                6
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 124,
+                            "codeStr": "SetVariableEx",
+                            "intArgs": [
+                                2800001,
+                                4096,
+                                3,
+                                7
+                            ],
+                            "index": 9
+                        },
+                        {
+                            "code": 121,
+                            "codeStr": "SetVariable",
+                            "intArgs": [
+                                2800001,
+                                32,
+                                0,
+                                512
+                            ],
+                            "index": 10
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "stringArgs": [
+                                "Fog/mapfog_MemoryRoom_Monica.png"
+                            ],
+                            "intArgs": [
+                                33558528,
+                                4294867295,
+                                0,
+                                1,
+                                1,
+                                1,
+                                255,
+                                2800000,
+                                2800001,
+                                100,
+                                0
+                            ],
+                            "index": 11
+                        },
+                        {
+                            "code": 173,
+                            "codeStr": "EraseEvent",
+                            "intArgs": [
+                                4294967294,
+                                0
+                            ],
+                            "index": 12
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "name": "モニカ",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "イベント当たり判定"
+                            ],
+                            "intArgs": [
+                                0,
+                                16777216,
+                                2900053
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                2900053,
+                                1,
+                                2
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "簡易メッセージ",
+                                "<C>Разбросанные письма адресованы в тюрьму.\n<C>Судя по именам, их писали разным людям."
+                            ],
+                            "intArgs": [
+                                0,
+                                4113,
+                                0,
+                                0
+                            ],
+                            "index": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "name": "モニカの日記2",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "接近コモン"
+                            ],
+                            "intArgs": [
+                                0,
+                                16777216,
+                                1100000
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                1100000,
+                                0,
+                                2,
+                                1100000,
+                                1,
+                                2
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                12322,
+                                2900007,
+                                20
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "パーティクル準備"
+                            ],
+                            "intArgs": [
+                                0,
+                                68,
+                                4294967295,
+                                4294967294,
+                                4294967295,
+                                30,
+                                3000000,
+                                3000000,
+                                3000000,
+                                3000000
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "stringArgs": [
+                                "\\E\\f[18]Жизнь моей тётушки подошла к концу.\nСудя по всему, это было самоубийство.\nБез сомнений, она не выдержала тех гонений,\nчто преследуют нашу семью.\nБедная, бедная Тётушка... Если бы вы следовали\nправилам, то вашего позора никто бы не увидел.\n\nЯ не могу понять, о чём думала Тётушка.\nМы дарим права тем людям,\nчья жизнь ничего не стоит.\nКонечно же, став жертвой семьи Древис\nони оставят более крупный след в этом мире..."
+                            ],
+                            "intArgs": [
+                                12320,
+                                2900007,
+                                20,
+                                1,
+                                1,
+                                1,
+                                255,
+                                810,
+                                25,
+                                100,
+                                0
+                            ],
+                            "index": 7
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 3,
+            "name": "モニカの日記3",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "接近コモン"
+                            ],
+                            "intArgs": [
+                                0,
+                                16777216,
+                                1100000
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                1100000,
+                                0,
+                                2,
+                                1100000,
+                                1,
+                                2
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "パーティクル準備",
+                                "-200,1000",
+                                "-200,0",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                12356,
+                                4294967295,
+                                4294967294,
+                                4294967295,
+                                30,
+                                0,
+                                0,
+                                3000000,
+                                3000000
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                12322,
+                                2900007,
+                                20
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "パーティクル準備",
+                                "-200,1000",
+                                "-200,0",
+                                "",
+                                ""
+                            ],
+                            "intArgs": [
+                                0,
+                                12356,
+                                0,
+                                12,
+                                4294967295,
+                                30,
+                                0,
+                                0,
+                                3000000,
+                                3000000
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "stringArgs": [
+                                "\\E\\f[18]Мой дорогой Дедушка отправился на Небеса.\nНа своём смертном одре он доверил всё мне,\nнаказав приглядывать за домом Древис.\nБез сомнений, он хотел чтобы я наконец\nисполнила долгоиграющие амбиции династии Древис.\nЯ поняла, Дедушка. Я справлюсь со всем сама.\n\nАх, что же мне делать?\nМоё сердце не перестаёт колотиться от волнения,\nведь мне вверили запретные исследования!\nКакое же чудесное событие!"
+                            ],
+                            "intArgs": [
+                                12320,
+                                2900007,
+                                20,
+                                1,
+                                1,
+                                1,
+                                255,
+                                810,
+                                25,
+                                100,
+                                0
+                            ],
+                            "index": 8
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 4,
+            "name": "移動：日誌",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                10
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967294
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 140,
+                            "codeStr": "Sound",
+                            "stringArgs": [
+                                "SE/seikatsu_book_close_onjin.ogg"
+                            ],
+                            "intArgs": [
+                                33554464,
+                                15,
+                                0,
+                                0,
+                                100,
+                                100
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 201,
+                            "codeStr": "Move",
+                            "intArgs": [
+                                4294967295
+                            ],
+                            "index": 4
+                        },
+                        {
+                            "code": 180,
+                            "codeStr": "Wait",
+                            "intArgs": [
+                                20
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                16777218,
+                                4294867296,
+                                0,
+                                20,
+                                0,
+                                4294867295
+                            ],
+                            "index": 6
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動",
+                                "",
+                                "",
+                                "1"
+                            ],
+                            "intArgs": [
+                                0,
+                                16436,
+                                68,
+                                16,
+                                12,
+                                8,
+                                3000000,
+                                3000000,
+                                0
+                            ],
+                            "index": 7
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "システムアイコン"
+                            ],
+                            "intArgs": [
+                                0,
+                                2,
+                                1,
+                                1
+                            ],
+                            "index": 8
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "システムアイコン"
+                            ],
+                            "intArgs": [
+                                0,
+                                2,
+                                2,
+                                1
+                            ],
+                            "index": 9
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 5,
+            "name": "移動",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                16777218,
+                                4294867296,
+                                0,
+                                20,
+                                0,
+                                4294867295
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "場所移動"
+                            ],
+                            "intArgs": [
+                                0,
+                                52,
+                                126,
+                                6,
+                                56,
+                                8,
+                                3000000,
+                                3000000,
+                                3000000
+                            ],
+                            "index": 1
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "name": "モニカの日記1",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "接近コモン"
+                            ],
+                            "intArgs": [
+                                0,
+                                16777216,
+                                1100000
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                2,
+                                1100000,
+                                0,
+                                2,
+                                1100000,
+                                1,
+                                2
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "intArgs": [
+                                12322,
+                                2900007,
+                                20
+                            ],
+                            "index": 3
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                2
+                            ],
+                            "index": 5
+                        },
+                        {
+                            "code": 150,
+                            "codeStr": "Picture",
+                            "stringArgs": [
+                                "\\E\\f[18]Дорогой мистер Хоаким Реттер,\n\nменя крайне заинтересовала ваша статья.\nПравда ли то, что вы убили\n10 человек за одну ночь?\nЯ хотела бы встретиться с вами и поговорить.\nБуду ждать ответа.\n\nМоника Древис"
+                            ],
+                            "intArgs": [
+                                12320,
+                                2900007,
+                                20,
+                                1,
+                                1,
+                                1,
+                                255,
+                                810,
+                                25,
+                                100,
+                                0
+                            ],
+                            "index": 6
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 7,
+            "name": "人形",
+            "pages": [
+                {
+                    "id": 0,
+                    "list": [
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "イベント当たり判定"
+                            ],
+                            "intArgs": [
+                                0,
+                                16777216,
+                                2900053
+                            ],
+                            "index": 0
+                        },
+                        {
+                            "code": 111,
+                            "codeStr": "VariableCondition",
+                            "intArgs": [
+                                1,
+                                2900053,
+                                1,
+                                2
+                            ],
+                            "index": 1
+                        },
+                        {
+                            "code": 401,
+                            "codeStr": "ChoiceCase",
+                            "intArgs": [
+                                1
+                            ],
+                            "index": 2
+                        },
+                        {
+                            "code": 300,
+                            "codeStr": "CommonEventByName",
+                            "stringArgs": [
+                                "簡易メッセージ",
+                                "<C>На полу лежит кукла.\nПохоже, ею не сильно дорожили."
+                            ],
+                            "intArgs": [
+                                0,
+                                4113,
+                                0,
+                                0
+                            ],
+                            "index": 6
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

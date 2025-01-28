@@ -1,0 +1,1780 @@
+{
+    "id": 126,
+    "name": "パスワード",
+    "description": "0824",
+    "commands": [
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 0
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000001,
+                0,
+                2,
+                2000001,
+                1,
+                2
+            ],
+            "index": 1
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 2
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "座標取得",
+                "anime_aya01",
+                "10",
+                "10",
+                "1"
+            ],
+            "intArgs": [
+                0,
+                61508,
+                4294967294,
+                4294967264,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 5
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "座標取得",
+                "anime_aya201",
+                "10",
+                "10",
+                "99"
+            ],
+            "intArgs": [
+                0,
+                61508,
+                4294967294,
+                4294967264,
+                1,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 9
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                41000,
+                0,
+                0
+            ],
+            "index": 10
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                0,
+                0,
+                0
+            ],
+            "index": 11
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                40,
+                0,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                48,
+                1600010,
+                0,
+                848,
+                480,
+                1,
+                150,
+                0,
+                0,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 14
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                424,
+                0,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                150,
+                0,
+                0
+            ],
+            "index": 16
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\EВведите код."
+            ],
+            "intArgs": [
+                4128,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0
+            ],
+            "index": 17
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 18
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600012,
+                200,
+                0,
+                256
+            ],
+            "index": 19
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                340,
+                0,
+                0
+            ],
+            "index": 20
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                4
+            ],
+            "index": 21
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パスワード",
+                "",
+                ""
+            ],
+            "intArgs": [
+                3,
+                0,
+                1600020,
+                69632,
+                1600022
+            ],
+            "index": 22
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\cself[22]"
+            ],
+            "intArgs": [
+                32,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                1600011,
+                1600012,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                1600013,
+                1600013,
+                1600013
+            ],
+            "index": 23
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                1,
+                0,
+                256
+            ],
+            "index": 24
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 25
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                50,
+                0,
+                256
+            ],
+            "index": 26
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                0,
+                0,
+                0
+            ],
+            "index": 29
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                4,
+                0,
+                512
+            ],
+            "index": 30
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "キー入力処理"
+            ],
+            "index": 31
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パスワード",
+                "",
+                ""
+            ],
+            "intArgs": [
+                3,
+                0,
+                1600020,
+                69632,
+                1600022
+            ],
+            "index": 33
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\cself[22]"
+            ],
+            "intArgs": [
+                4263712,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296
+            ],
+            "index": 34
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600021,
+                177
+            ],
+            "index": 35
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600021,
+                2,
+                2,
+                1600021,
+                8,
+                2
+            ],
+            "index": 36
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 37
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/drawer_dial_jiten.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 38
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000001,
+                0,
+                2,
+                2000001,
+                1,
+                2
+            ],
+            "index": 39
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 40
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                2,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216
+            ],
+            "index": 41
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                1,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216,
+                5
+            ],
+            "index": 42
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 44
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                100,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216
+            ],
+            "index": 45
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                99,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216,
+                5
+            ],
+            "index": 46
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600022,
+                0,
+                2
+            ],
+            "index": 49
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 50
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パスワード",
+                "",
+                ""
+            ],
+            "intArgs": [
+                3,
+                0,
+                1600020,
+                65536,
+                9
+            ],
+            "index": 51
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 53
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                544,
+                0,
+                0,
+                0
+            ],
+            "index": 54
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パスワード",
+                "",
+                ""
+            ],
+            "intArgs": [
+                3,
+                0,
+                1600020,
+                65568,
+                1
+            ],
+            "index": 55
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 58
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 60
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/drawer_dial_jiten.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 61
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000001,
+                0,
+                2,
+                2000001,
+                1,
+                2
+            ],
+            "index": 62
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 63
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                2,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216
+            ],
+            "index": 64
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                1,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216,
+                5
+            ],
+            "index": 65
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 67
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                100,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216
+            ],
+            "index": 68
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                99,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216,
+                5
+            ],
+            "index": 69
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600022,
+                9,
+                2
+            ],
+            "index": 72
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 73
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パスワード",
+                "",
+                ""
+            ],
+            "intArgs": [
+                3,
+                0,
+                1600020,
+                65536,
+                0
+            ],
+            "index": 74
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 76
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パスワード",
+                "",
+                ""
+            ],
+            "intArgs": [
+                3,
+                0,
+                1600020,
+                65552,
+                1
+            ],
+            "index": 77
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                5
+            ],
+            "index": 80
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600021,
+                4,
+                2,
+                1600021,
+                6,
+                2
+            ],
+            "index": 83
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 84
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                544,
+                0,
+                0,
+                0
+            ],
+            "index": 85
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1600010,
+                0,
+                0,
+                0,
+                1,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                33554432,
+                0,
+                0,
+                1600013,
+                1600013,
+                1600013
+            ],
+            "index": 86
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600020,
+                0,
+                2
+            ],
+            "index": 87
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 88
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                3,
+                0,
+                256
+            ],
+            "index": 89
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                3,
+                0,
+                256
+            ],
+            "index": 90
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 92
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                1,
+                0,
+                512
+            ],
+            "index": 93
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                512
+            ],
+            "index": 94
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 98
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                544,
+                0,
+                0,
+                0
+            ],
+            "index": 99
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1600010,
+                0,
+                0,
+                0,
+                1,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                33554432,
+                0,
+                0,
+                1600013,
+                1600013,
+                1600013
+            ],
+            "index": 100
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                17,
+                1600020,
+                3,
+                2
+            ],
+            "index": 101
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 102
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                3,
+                0,
+                512
+            ],
+            "index": 103
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                3,
+                0,
+                512
+            ],
+            "index": 104
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 106
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                1,
+                0,
+                256
+            ],
+            "index": 107
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 108
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 113
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600021,
+                10,
+                2,
+                1600021,
+                11,
+                2
+            ],
+            "index": 114
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 115
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                0,
+                0,
+                0
+            ],
+            "index": 116
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パスワード",
+                "",
+                ""
+            ],
+            "intArgs": [
+                3,
+                0,
+                0,
+                69632,
+                1600030
+            ],
+            "index": 117
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パスワード",
+                "",
+                ""
+            ],
+            "intArgs": [
+                3,
+                0,
+                1,
+                69632,
+                1600031
+            ],
+            "index": 118
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パスワード",
+                "",
+                ""
+            ],
+            "intArgs": [
+                3,
+                0,
+                2,
+                69632,
+                1600032
+            ],
+            "index": 119
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "パスワード",
+                "",
+                ""
+            ],
+            "intArgs": [
+                3,
+                0,
+                3,
+                69632,
+                1600033
+            ],
+            "index": 120
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\cself[30]\\cself[31]\\cself[32]\\cself[33]"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 121
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "4280",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                17,
+                1600005
+            ],
+            "index": 122
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 123
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000001,
+                0,
+                2,
+                2000001,
+                1,
+                2
+            ],
+            "index": 124
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 125
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 126
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 128
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 129
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16846626,
+                41000,
+                0,
+                0,
+                0,
+                41020
+            ],
+            "index": 132
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 133
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/door_kye_unlock_jitenn.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 134
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                2000001,
+                0,
+                2,
+                2000001,
+                1,
+                2
+            ],
+            "index": 135
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 136
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                2,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216
+            ],
+            "index": 137
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                1,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216,
+                5
+            ],
+            "index": 138
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 140
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                100,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216
+            ],
+            "index": 141
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                4263681,
+                1,
+                0,
+                0,
+                0,
+                99,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                0,
+                0,
+                16777216,
+                5
+            ],
+            "index": 142
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 145
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "簡易メッセージ",
+                "Замок открылся."
+            ],
+            "intArgs": [
+                0,
+                4113,
+                0,
+                0
+            ],
+            "index": 146
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 147
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1,
+                0,
+                1
+            ],
+            "index": 148
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 149
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/drawer_steel_open_lab.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                100,
+                100
+            ],
+            "index": 150
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                2,
+                18,
+                6,
+                1,
+                1,
+                140
+            ],
+            "index": 151
+        },
+        {
+            "code": 242,
+            "codeStr": "Command",
+            "intArgs": [
+                2,
+                18,
+                7,
+                1,
+                1,
+                148
+            ],
+            "index": 152
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 153
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 154
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "アイテム入手"
+            ],
+            "intArgs": [
+                0,
+                4,
+                2,
+                4294967295,
+                1,
+                1
+            ],
+            "index": 155
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ミッション"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4,
+                4294967295,
+                0,
+                1
+            ],
+            "index": 156
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット",
+                ""
+            ],
+            "intArgs": [
+                0,
+                4114,
+                0,
+                0,
+                0
+            ],
+            "index": 157
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2000010,
+                1,
+                0,
+                0
+            ],
+            "index": 158
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 161
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                32,
+                0,
+                0,
+                0
+            ],
+            "index": 162
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16846626,
+                41000,
+                0,
+                0,
+                0,
+                41020
+            ],
+            "index": 163
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 164
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                69410,
+                1,
+                0,
+                1
+            ],
+            "index": 165
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 166
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット",
+                ""
+            ],
+            "intArgs": [
+                0,
+                4114,
+                0,
+                0,
+                0
+            ],
+            "index": 167
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 168
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "簡易メッセージ",
+                "Похоже, что код не подошёл."
+            ],
+            "intArgs": [
+                0,
+                4113,
+                0,
+                0
+            ],
+            "index": 169
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 174
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "intArgs": [
+                288,
+                0,
+                0,
+                0
+            ],
+            "index": 175
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16846626,
+                41000,
+                0,
+                0,
+                0,
+                41020
+            ],
+            "index": 176
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 177
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                69410,
+                1,
+                0,
+                1
+            ],
+            "index": 178
+        },
+        {
+            "code": 201,
+            "codeStr": "Move",
+            "intArgs": [
+                4294967294
+            ],
+            "index": 179
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ショートカット",
+                ""
+            ],
+            "intArgs": [
+                0,
+                4114,
+                0,
+                0,
+                0
+            ],
+            "index": 180
+        }
+    ]
+}

@@ -1,0 +1,196 @@
+{
+    "id": 119,
+    "name": "スチルスイッチ",
+    "description": "",
+    "commands": [
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                4294967295,
+                2,
+                1600000,
+                0,
+                1
+            ],
+            "index": 0
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 1
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "イベント"
+            ],
+            "index": 2
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                0,
+                0,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                8,
+                4294967295,
+                0,
+                4096,
+                1600010
+            ],
+            "index": 4
+        },
+        {
+            "code": 179,
+            "codeStr": "LoopTimes",
+            "intArgs": [
+                1600010
+            ],
+            "index": 5
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "可変スイッチ"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                8,
+                1600011,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600011,
+                1,
+                0,
+                256
+            ],
+            "index": 7
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 11
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "可変スイッチ"
+            ],
+            "intArgs": [
+                0,
+                4,
+                0,
+                8,
+                1600000,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                8,
+                1600000,
+                0,
+                4096,
+                1600012
+            ],
+            "index": 13
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600012,
+                0,
+                2
+            ],
+            "index": 14
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 15
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                8,
+                1600000,
+                0,
+                0,
+                1
+            ],
+            "index": 16
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "可変スイッチ"
+            ],
+            "intArgs": [
+                0,
+                4,
+                1,
+                8,
+                1600000,
+                0
+            ],
+            "index": 17
+        }
+    ]
+}

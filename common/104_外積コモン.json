@@ -1,0 +1,45 @@
+{
+    "id": 104,
+    "name": "外積コモン",
+    "description": "角度Aから見て角度Bが左右どちらにあるか返す(+：右，　-：左)　結果は-1～1、-90～90度で返すか選べます",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600000,
+                900,
+                0,
+                256
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600002,
+                1,
+                0,
+                256
+            ],
+            "index": 1
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "内積コモン"
+            ],
+            "intArgs": [
+                0,
+                16777219,
+                1600000,
+                1600001,
+                1600002,
+                1600004
+            ],
+            "index": 2
+        }
+    ]
+}

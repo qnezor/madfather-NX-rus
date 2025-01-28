@@ -1,0 +1,309 @@
+{
+    "id": 151,
+    "name": "ロード直後に実行",
+    "description": "",
+    "commands": [
+        {
+            "code": 126,
+            "codeStr": "BanInput",
+            "intArgs": [
+                759
+            ],
+            "index": 0
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "3.08追加点 ここから"
+            ],
+            "index": 1
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600020,
+                3000003,
+                9000100,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600021,
+                3000003,
+                9000101,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 221,
+            "codeStr": "LoadGame",
+            "intArgs": [
+                1600022,
+                3000003,
+                9000102,
+                0
+            ],
+            "index": 4
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000100,
+                1600020,
+                0,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000101,
+                1600021,
+                0,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000102,
+                1600022,
+                0,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                500123,
+                4,
+                0,
+                7,
+                0,
+                3
+            ],
+            "index": 8
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                500123,
+                4,
+                0,
+                7,
+                0,
+                4
+            ],
+            "index": 9
+        },
+        {
+            "code": 210,
+            "codeStr": "CommonEvent",
+            "intArgs": [
+                500123,
+                4,
+                0,
+                7,
+                0,
+                5
+            ],
+            "index": 10
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000055,
+                1107000003,
+                300,
+                0
+            ],
+            "index": 11
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000056,
+                1107000004,
+                300,
+                0
+            ],
+            "index": 12
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                9000057,
+                1107000005,
+                300,
+                0
+            ],
+            "index": 13
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ここまで"
+            ],
+            "index": 14
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                8000,
+                0,
+                0,
+                0,
+                10000
+            ],
+            "index": 15
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777219,
+                80100,
+                80200
+            ],
+            "index": 16
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                80100,
+                0,
+                0,
+                0,
+                80200
+            ],
+            "index": 17
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                51000,
+                0,
+                0,
+                0,
+                51002
+            ],
+            "index": 18
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "ミッション"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967294,
+                4294967295,
+                0,
+                1
+            ],
+            "index": 19
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/AutoSave.sav"
+            ],
+            "intArgs": [
+                1600005,
+                0
+            ],
+            "index": 20
+        },
+        {
+            "code": 220,
+            "codeStr": "SaveLoad",
+            "intArgs": [
+                0,
+                1600005
+            ],
+            "index": 21
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900021,
+                0,
+                0,
+                0
+            ],
+            "index": 22
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 23
+        },
+        {
+            "code": 300,
+            "codeStr": "CommonEventByName",
+            "stringArgs": [
+                "画面色調変更"
+            ],
+            "intArgs": [
+                0,
+                4,
+                4294967295,
+                20,
+                0,
+                20
+            ],
+            "index": 24
+        },
+        {
+            "code": 126,
+            "codeStr": "BanInput",
+            "intArgs": [
+                247
+            ],
+            "index": 25
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900039,
+                0,
+                0,
+                0
+            ],
+            "index": 26
+        }
+    ]
+}

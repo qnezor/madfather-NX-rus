@@ -1,0 +1,2535 @@
+{
+    "id": 93,
+    "name": "★コマンド入力コモン",
+    "description": "",
+    "commands": [
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────────────────────────────────────"
+            ],
+            "index": 0
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "コマンド入力コモン"
+            ],
+            "index": 1
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　　　　　　　　作った人：っK"
+            ],
+            "index": 2
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　　　　　　　　作成日　：2010/12/4"
+            ],
+            "index": 3
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────────────────────────────────────"
+            ],
+            "index": 4
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "◆概要"
+            ],
+            "index": 5
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "格闘ゲーム、その他アクションゲームのように、"
+            ],
+            "index": 6
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ゲーム中にコマンド入力ができるコモンイベントです。"
+            ],
+            "index": 7
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 8
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ただし、入力コマンドは画面上に表示されます。"
+            ],
+            "index": 9
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ミニゲーム、その他自作戦闘システムなどにどうぞ！？"
+            ],
+            "index": 10
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 11
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "コマンド画像は表示形式「中心」です。"
+            ],
+            "index": 12
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 13
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "◆使い方"
+            ],
+            "index": 14
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "１．コモンイベントを読込みます。"
+            ],
+            "index": 15
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "２．コモンイベントを呼び出します。"
+            ],
+            "index": 16
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 17
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────────────────────────────────────"
+            ],
+            "index": 18
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "設定値について"
+            ],
+            "index": 19
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────────────────────────────────────"
+            ],
+            "index": 20
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "コモンイベントを呼び出す場合、以下の項目を入力します。"
+            ],
+            "index": 21
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "◆ｘ座標"
+            ],
+            "index": 22
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　コマンド入力画面の中心ｘ座標を指定します"
+            ],
+            "index": 23
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 24
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "◆ｙ座標"
+            ],
+            "index": 25
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　コマンド入力画面の中心ｙ座標を指定します"
+            ],
+            "index": 26
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 27
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "◆結果格納先"
+            ],
+            "index": 28
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　指定した通常変数にコマンド入力結果が格納されます"
+            ],
+            "index": 29
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 30
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "◆└処理結果"
+            ],
+            "index": 31
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　0…成功／1…失敗　　：　コマンド入力に成功すると\"0\"、失敗すると\"1\"が指定した通常変数に格納されます"
+            ],
+            "index": 32
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　コマンド入力時間　　　：　コマンド入力に成功すると\"入力にかかった時間（秒）\"、失敗すると\"-1\"が指定した通常変数に格納されます"
+            ],
+            "index": 33
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 34
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "◆入力コマンド　（文字列）"
+            ],
+            "index": 35
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　コモンイベントで入力することになるコマンドを文字列として入力します"
+            ],
+            "index": 36
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　[　記述形式　]"
+            ],
+            "index": 37
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "  十字キー：それぞれ　\"↑\"、\"↓\"、\"←\"、\"→\"　を文字列に入れてください"
+            ],
+            "index": 38
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　決定キー：\"Z\"を文字列に入れてください（半角）"
+            ],
+            "index": 39
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　キャンセルキー：\"X\"を文字列に入れてください（半角）"
+            ],
+            "index": 40
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　サブキー：\"C\"を文字列に入れてください（半角）"
+            ],
+            "index": 41
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　[　記述例　]"
+            ],
+            "index": 42
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　S[0]=\"↑↑↓↓←→ZX\""
+            ],
+            "index": 43
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 44
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 45
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────────────────────────────────────"
+            ],
+            "index": 46
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "以下の変数はお好みでカスタマイズしてください"
+            ],
+            "index": 47
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 48
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　画面に表示されるコマンド画像を変更したい場合は、下のほうにあるチェックポイントの箇所を変更してください"
+            ],
+            "index": 49
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 50
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────────────────────────────────────"
+            ],
+            "index": 51
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ウインドウピクチャ番号：処理に使用するピクチャ番号です。デフォルトではメッセージウインドウ（番号90000）よりも上位です。"
+            ],
+            "index": 52
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　　　　　　　　　　　　　　使用するピクチャ番号は、コマンド画像の数＋ウインドウ画像だけ必要になります"
+            ],
+            "index": 53
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600038,
+                91000,
+                0,
+                0
+            ],
+            "index": 54
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                91001,
+                0,
+                0
+            ],
+            "index": 55
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ウインドウ画像：ベースウインドウに使用する画像ファイルを指定します。"
+            ],
+            "index": 56
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "SystemFile/WindowBase.pngff"
+            ],
+            "intArgs": [
+                1600009,
+                0
+            ],
+            "index": 57
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "上下左右の余白：ウインドウと、コマンド画像との間に発生する余白の大きさです。"
+            ],
+            "index": 58
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                21,
+                0,
+                0
+            ],
+            "index": 59
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "コマンド画像の間隔：画面上に表示されるコマンドの画像間隔を指定します。"
+            ],
+            "index": 60
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600031,
+                40,
+                0,
+                0
+            ],
+            "index": 61
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ピクチャ削除する？：処理が終了した時、使用したピクチャを削除するかどうか指定します。"
+            ],
+            "index": 62
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600027,
+                1,
+                0,
+                0
+            ],
+            "index": 63
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "各種サウンド：記載の条件時に発生するサウンドを指定します。（システムDB3番参照）"
+            ],
+            "index": 64
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 65
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 66
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "以下、イベント"
+            ],
+            "index": 67
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────────────────────────────────────"
+            ],
+            "index": 68
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900033,
+                0,
+                0,
+                0
+            ],
+            "index": 69
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900042,
+                0,
+                0,
+                0
+            ],
+            "index": 70
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 71
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 72
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 73
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 74
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                ""
+            ],
+            "index": 75
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 76
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "設定値チェック"
+            ],
+            "index": 77
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 78
+        },
+        {
+            "code": 250,
+            "codeStr": "Database",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                14,
+                4294967295,
+                0,
+                4464,
+                1600002
+            ],
+            "index": 79
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                0,
+                0,
+                1536
+            ],
+            "index": 80
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 81
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "文字列からコマンドを表示"
+            ],
+            "index": 82
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 83
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600037,
+                9000029,
+                0,
+                0
+            ],
+            "index": 84
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                1600008,
+                1,
+                1600005
+            ],
+            "index": 85
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                1600010,
+                1,
+                0
+            ],
+            "index": 86
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600016,
+                1600020,
+                0,
+                65536,
+                1
+            ],
+            "index": 87
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600018,
+                0,
+                0,
+                65536,
+                1
+            ],
+            "index": 88
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 90
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "１文字取得"
+            ],
+            "index": 91
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 92
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                1600006,
+                1025,
+                1600005
+            ],
+            "index": 93
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
+            ],
+            "index": 95
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " 画面上に表示されるコマンド画像を変えたい場合、"
+            ],
+            "index": 96
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " この部分を変更してください"
+            ],
+            "index": 97
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
+            ],
+            "index": 98
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　◆文字を変更したい場合"
+            ],
+            "index": 99
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　　　→文字列の代入処理を変更してください"
+            ],
+            "index": 100
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　◆アイコン画像を表示させたい場合"
+            ],
+            "index": 101
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　　　→\"\\i[X]\"を使用して、アイコンを表示させましょう"
+            ],
+            "index": 102
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
+            ],
+            "index": 103
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                ""
+            ],
+            "intArgs": [
+                1600007,
+                0
+            ],
+            "index": 104
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ベースウインドウの表示"
+            ],
+            "index": 105
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "a",
+                "b",
+                "c",
+                "d"
+            ],
+            "intArgs": [
+                4,
+                1600006,
+                1600006,
+                1600006,
+                1600006
+            ],
+            "index": 106
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 107
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\i[206]"
+            ],
+            "intArgs": [
+                1600007,
+                0
+            ],
+            "index": 108
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 110
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\i[207]"
+            ],
+            "intArgs": [
+                1600007,
+                0
+            ],
+            "index": 111
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 113
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\i[208]"
+            ],
+            "intArgs": [
+                1600007,
+                0
+            ],
+            "index": 114
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 116
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "\\i[209]"
+            ],
+            "intArgs": [
+                1600007,
+                0
+            ],
+            "index": 117
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
+            ],
+            "index": 120
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "変更が必要となる部分はここまでです"
+            ],
+            "index": 121
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                " ※※※※※※※※※※※※※※※※※※※※※※※※※※※※※"
+            ],
+            "index": 122
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 124
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "単語が対応するコマンドと等しい場合ピクチャ表示"
+            ],
+            "index": 125
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "現時点では透明"
+            ],
+            "index": 126
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 127
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1,
+                270035463
+            ],
+            "index": 128
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 129
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "\\cself[7]"
+            ],
+            "intArgs": [
+                4128,
+                1600015,
+                0,
+                1,
+                1,
+                1,
+                0,
+                1600016,
+                1600017,
+                200,
+                0
+            ],
+            "index": 130
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ｘ座標加算"
+            ],
+            "index": 131
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600004,
+                16384,
+                1600015,
+                2
+            ],
+            "index": 132
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                17,
+                1600005
+            ],
+            "index": 133
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 134
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600016,
+                1600004,
+                0,
+                256
+            ],
+            "index": 135
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600018,
+                1600004,
+                0,
+                256
+            ],
+            "index": 136
+        },
+        {
+            "code": 420,
+            "codeStr": "ElseCase",
+            "intArgs": [
+                0
+            ],
+            "index": 138
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600016,
+                1600031,
+                1600004,
+                256
+            ],
+            "index": 139
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600018,
+                1600031,
+                1600004,
+                256
+            ],
+            "index": 140
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "表示を中心に持ってくる（横軸）"
+            ],
+            "index": 143
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                2,
+                0,
+                1024
+            ],
+            "index": 144
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                69409,
+                1600015,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                1600004,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                16777216
+            ],
+            "index": 145
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                1,
+                0,
+                256
+            ],
+            "index": 146
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ｙサイズ計算"
+            ],
+            "index": 147
+        },
+        {
+            "code": 124,
+            "codeStr": "SetVariableEx",
+            "intArgs": [
+                1600004,
+                16384,
+                1600015,
+                3
+            ],
+            "index": 148
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600004,
+                1600018,
+                0
+            ],
+            "index": 149
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 150
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600019,
+                1600004,
+                0,
+                0
+            ],
+            "index": 151
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 156
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "表示する文字列がなくなると終了"
+            ],
+            "index": 157
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 158
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1,
+                1600005
+            ],
+            "index": 159
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 160
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "表示を中心に持ってくる（縦軸）"
+            ],
+            "index": 166
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600032,
+                1600019,
+                2,
+                12288
+            ],
+            "index": 167
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1600010,
+                1,
+                0
+            ],
+            "index": 168
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16846657,
+                1600004,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                1600032,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                0,
+                1600015
+            ],
+            "index": 169
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 170
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "コマンド画像の表示"
+            ],
+            "index": 171
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "ベースウインドウの表示"
+            ],
+            "index": 172
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 173
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600018,
+                1600020,
+                2,
+                73984,
+                1
+            ],
+            "index": 174
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600013,
+                1600018,
+                0,
+                0
+            ],
+            "index": 175
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600014,
+                1600019,
+                0,
+                0
+            ],
+            "index": 176
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                4144,
+                1600038,
+                0,
+                848,
+                100,
+                1,
+                180,
+                424,
+                350,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 177
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "座標計算"
+            ],
+            "index": 178
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 179
+        },
+        {
+            "code": 99,
+            "codeStr": "Checkpoint",
+            "intArgs": [
+                0
+            ],
+            "index": 180
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                424,
+                0,
+                0
+            ],
+            "index": 181
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1600018,
+                2,
+                12800
+            ],
+            "index": 182
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600016,
+                1600004,
+                0,
+                0
+            ],
+            "index": 183
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                300,
+                0,
+                0
+            ],
+            "index": 184
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600004,
+                1600019,
+                2,
+                12800
+            ],
+            "index": 185
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600017,
+                1600004,
+                50,
+                0
+            ],
+            "index": 186
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                21040897,
+                1600010,
+                0,
+                0,
+                0,
+                4293967296,
+                255,
+                1600016,
+                1600017,
+                4293967296,
+                4293967296,
+                0,
+                16777216,
+                0,
+                1600015
+            ],
+            "index": 187
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 188
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 189
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "コマンド入力モード"
+            ],
+            "index": 190
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 191
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600035,
+                0,
+                0,
+                0
+            ],
+            "index": 192
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                1600010,
+                1,
+                0
+            ],
+            "index": 193
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 195
+        },
+        {
+            "code": 123,
+            "codeStr": "InputKey",
+            "intArgs": [
+                1600033,
+                241
+            ],
+            "index": 196
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                1600006,
+                1025,
+                1600008
+            ],
+            "index": 197
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 198
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "コマンドとキー入力が一致すれば成功"
+            ],
+            "index": 199
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 200
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600034,
+                1,
+                0,
+                0
+            ],
+            "index": 201
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "a",
+                "b",
+                "c",
+                "d"
+            ],
+            "intArgs": [
+                4,
+                1600006,
+                1600006,
+                1600006,
+                1600006
+            ],
+            "index": 202
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 203
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600033,
+                8,
+                2
+            ],
+            "index": 204
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 205
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600034,
+                0,
+                0,
+                0
+            ],
+            "index": 206
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 210
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600033,
+                2,
+                2
+            ],
+            "index": 211
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 212
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600034,
+                0,
+                0,
+                0
+            ],
+            "index": 213
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 217
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600033,
+                4,
+                2
+            ],
+            "index": 218
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 219
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600034,
+                0,
+                0,
+                0
+            ],
+            "index": 220
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                4
+            ],
+            "index": 224
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600033,
+                6,
+                2
+            ],
+            "index": 225
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 226
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600034,
+                0,
+                0,
+                0
+            ],
+            "index": 227
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "Z",
+                "X",
+                "C",
+                ""
+            ],
+            "intArgs": [
+                3,
+                1600006,
+                1600006,
+                1600006
+            ],
+            "index": 232
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 233
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600033,
+                10,
+                2
+            ],
+            "index": 234
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 235
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600034,
+                0,
+                0,
+                0
+            ],
+            "index": 236
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 240
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600033,
+                11,
+                2
+            ],
+            "index": 241
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 242
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600034,
+                0,
+                0,
+                0
+            ],
+            "index": 243
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                3
+            ],
+            "index": 247
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600033,
+                12,
+                2
+            ],
+            "index": 248
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 249
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600034,
+                0,
+                0,
+                0
+            ],
+            "index": 250
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600034,
+                0,
+                2,
+                1600034,
+                1,
+                2
+            ],
+            "index": 255
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 256
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 257
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "コマンド成功"
+            ],
+            "index": 258
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　◆対象のコマンド画像を緑色にする"
+            ],
+            "index": 259
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 260
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SystemFile/SE_command_good_jiten.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 261
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                69377,
+                1600015,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                3328050
+            ],
+            "index": 262
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900034,
+                1,
+                0,
+                256
+            ],
+            "index": 263
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "エスカドラ変更点"
+            ],
+            "index": 264
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2400000,
+                1,
+                1,
+                4096
+            ],
+            "index": 265
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 267
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 268
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "コマンド失敗"
+            ],
+            "index": 269
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　◆対象のコマンド画像を暗めにする"
+            ],
+            "index": 270
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 271
+        },
+        {
+            "code": 140,
+            "codeStr": "Sound",
+            "stringArgs": [
+                "SE/break_glass_crack_lab.ogg"
+            ],
+            "intArgs": [
+                33554464,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 272
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                69377,
+                1600015,
+                0,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                0,
+                4293967296,
+                4293967296,
+                0,
+                3289650
+            ],
+            "index": 273
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600035,
+                1,
+                0,
+                0
+            ],
+            "index": 274
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2900034,
+                0,
+                0,
+                0
+            ],
+            "index": 275
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                1
+            ],
+            "index": 276
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                91000,
+                0,
+                0,
+                0,
+                91010
+            ],
+            "index": 277
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 278
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "エスカドラ変更点"
+            ],
+            "index": 280
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2400000,
+                1,
+                1,
+                4096
+            ],
+            "index": 281
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 284
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "表示する文字列がなくなると終了"
+            ],
+            "index": 285
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 286
+        },
+        {
+            "code": 112,
+            "codeStr": "StringCondition",
+            "stringArgs": [
+                "",
+                "",
+                "",
+                ""
+            ],
+            "intArgs": [
+                1,
+                1600008
+            ],
+            "index": 287
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 288
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "エスカドラ変更点"
+            ],
+            "index": 290
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2400000,
+                1,
+                1,
+                4096
+            ],
+            "index": 291
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600015,
+                1,
+                0,
+                256
+            ],
+            "index": 294
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 297
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "コマンド成功ならばフラッシュ"
+            ],
+            "index": 298
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 299
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600035,
+                0,
+                2
+            ],
+            "index": 300
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 301
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                0,
+                30,
+                1600010,
+                1600015,
+                100,
+                100,
+                100
+            ],
+            "index": 302
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                30
+            ],
+            "index": 303
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "エスカドラ変更点"
+            ],
+            "index": 304
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                2400000,
+                1,
+                1,
+                4096
+            ],
+            "index": 305
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 308
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "後処理"
+            ],
+            "index": 309
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 310
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                1,
+                1600027,
+                1,
+                2
+            ],
+            "index": 311
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 312
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                1600010,
+                0,
+                0,
+                6579300,
+                1600015
+            ],
+            "index": 313
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 316
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "処理結果の格納"
+            ],
+            "index": 317
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　◆セルフ３が0の場合、ブーリアン格納"
+            ],
+            "index": 318
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "　◆セルフ３が1の場合、入力時間の格納"
+            ],
+            "index": 319
+        },
+        {
+            "code": 103,
+            "codeStr": "Comment",
+            "stringArgs": [
+                "─────────────────"
+            ],
+            "index": 320
+        }
+    ]
+}

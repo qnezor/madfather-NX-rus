@@ -1,0 +1,39 @@
+{
+    "id": 163,
+    "name": "オートセーブ",
+    "description": "",
+    "commands": [
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "Save/AutoSave.sav"
+            ],
+            "intArgs": [
+                3000003,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 220,
+            "codeStr": "SaveLoad",
+            "intArgs": [
+                0,
+                3000003
+            ],
+            "index": 1
+        },
+        {
+            "code": 222,
+            "codeStr": "SaveGame",
+            "intArgs": [
+                1,
+                3000003,
+                2900039,
+                0
+            ],
+            "index": 2
+        }
+    ]
+}

@@ -1,0 +1,223 @@
+{
+    "id": 180,
+    "name": "クレジット",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                80100,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "<SQUARE>"
+            ],
+            "intArgs": [
+                48,
+                1600010,
+                0,
+                848,
+                480,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "index": 1
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                1,
+                0,
+                256
+            ],
+            "index": 2
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "SystemFile/credit1.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0
+            ],
+            "index": 3
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                ""
+            ],
+            "index": 4
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "SystemFile/credit2.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0
+            ],
+            "index": 5
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                ""
+            ],
+            "index": 6
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "SystemFile/credit3.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0
+            ],
+            "index": 7
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                ""
+            ],
+            "index": 8
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "SystemFile/credit4.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0
+            ],
+            "index": 9
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                ""
+            ],
+            "index": 10
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "SystemFile/credit5.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                0,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                100,
+                0
+            ],
+            "index": 11
+        },
+        {
+            "code": 101,
+            "codeStr": "Message",
+            "stringArgs": [
+                ""
+            ],
+            "index": 12
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                16777218,
+                80100,
+                0,
+                0,
+                0,
+                80101
+            ],
+            "index": 13
+        },
+        {
+            "code": 180,
+            "codeStr": "Wait",
+            "intArgs": [
+                20
+            ],
+            "index": 14
+        }
+    ]
+}

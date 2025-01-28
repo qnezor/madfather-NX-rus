@@ -1,0 +1,176 @@
+{
+    "id": 1,
+    "name": "イベント枠",
+    "description": "",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600010,
+                99001,
+                0,
+                0
+            ],
+            "index": 0
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                0,
+                2,
+                1600000,
+                1,
+                2
+            ],
+            "index": 1
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 2
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                1600010,
+                10
+            ],
+            "index": 3
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 5
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "SystemFile/Eff_Evframe.png"
+            ],
+            "intArgs": [
+                0,
+                1600010,
+                10,
+                1,
+                1,
+                1,
+                255,
+                0,
+                0,
+                200,
+                0
+            ],
+            "index": 6
+        },
+        {
+            "code": 111,
+            "codeStr": "VariableCondition",
+            "intArgs": [
+                2,
+                1600000,
+                2,
+                2,
+                1600000,
+                3,
+                2
+            ],
+            "index": 9
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                1
+            ],
+            "index": 10
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                80,
+                0,
+                19100,
+                19100,
+                4294967246,
+                4294967246,
+                4294967246
+            ],
+            "index": 11
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "intArgs": [
+                2,
+                19100,
+                0,
+                10
+            ],
+            "index": 12
+        },
+        {
+            "code": 401,
+            "codeStr": "ChoiceCase",
+            "intArgs": [
+                2
+            ],
+            "index": 14
+        },
+        {
+            "code": 150,
+            "codeStr": "Picture",
+            "stringArgs": [
+                "SystemFile/framee_moya_w.png"
+            ],
+            "intArgs": [
+                256,
+                19100,
+                0,
+                1,
+                1,
+                1,
+                200,
+                0,
+                0,
+                200,
+                0,
+                0,
+                33554432,
+                0,
+                0,
+                100,
+                0,
+                0
+            ],
+            "index": 15
+        },
+        {
+            "code": 290,
+            "codeStr": "Effect",
+            "intArgs": [
+                80,
+                20,
+                19100,
+                19100,
+                4294967246,
+                4294967246,
+                4294967246
+            ],
+            "index": 16
+        }
+    ]
+}

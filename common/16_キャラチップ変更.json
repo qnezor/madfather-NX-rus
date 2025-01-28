@@ -1,0 +1,73 @@
+{
+    "id": 16,
+    "name": "キャラチップ変更",
+    "description": "CharaChip/",
+    "commands": [
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                9100009,
+                0,
+                4
+            ],
+            "index": 0
+        },
+        {
+            "code": 121,
+            "codeStr": "SetVariable",
+            "intArgs": [
+                1600020,
+                1600000,
+                10,
+                8448
+            ],
+            "index": 1
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                "CharaChip/"
+            ],
+            "intArgs": [
+                1600006,
+                0
+            ],
+            "index": 2
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                1600006,
+                257,
+                1600005
+            ],
+            "index": 3
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "stringArgs": [
+                ".png"
+            ],
+            "intArgs": [
+                1600006,
+                256
+            ],
+            "index": 4
+        },
+        {
+            "code": 122,
+            "codeStr": "SetString",
+            "intArgs": [
+                1600020,
+                17,
+                1600006
+            ],
+            "index": 5
+        }
+    ]
+}
